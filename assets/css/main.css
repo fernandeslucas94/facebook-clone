@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    background-color: #E6E6FA;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text img {
+    height: 300px;
+    width: 300px;
+    margin-top: -100px;
+    margin-bottom: 0;
+}
+
+.form {
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form input[type='text'] {
+    margin-bottom: 16px;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    font-size: 20px;
+}
+
+.form .submit {
+    background-color:#4169E1;
+    padding: 5px;
+    color: #FFF;
+    border: 0;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.text {
+    margin-right: 130px;
+}
+
+p {
+    margin-top: -110px;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form a {
+    margin-left: 100px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.new-account {
+    background-color: #228B22;
+    padding: 5px;
+    color: #FFF;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 90px;
+    padding: 0px;
+}
